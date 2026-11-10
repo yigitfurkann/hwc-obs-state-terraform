@@ -1,0 +1,15 @@
+# Terraform çalışma dosyaları
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Değişken / backend dosyaları (ortama özel)
+*.tfvars
+backend.hcl
+
+# Kimlik bilgileri — ASLA commit etmeyin
+secrets.ps1
+secrets.sh
+credentials.csv

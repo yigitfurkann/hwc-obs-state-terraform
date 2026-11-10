@@ -1,0 +1,3 @@
+# Bu dosyayı backend.hcl olarak kopyalayın ve bucket adını kendi bucket'ınızla değiştirin.
+bucket = "sirket-tf-state"
+key    = "main/terraform.tfstate"
